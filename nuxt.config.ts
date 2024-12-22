@@ -4,10 +4,10 @@ export default defineNuxtConfig({
   css: ["~/assets/styles/index.css", "~/assets/icomoon/style.css"],
   devtools: { enabled: true },
   modules: ["@nuxtjs/tailwindcss", "@pinia/nuxt", "@nuxtjs/i18n"],
+
   i18n: {
     defaultLocale: "uz",
     locales: [{ code: "uz", file: "uz.json" }],
-    langDir: "i18n",
     lazy: true,
     strategy: "no_prefix",
   },
