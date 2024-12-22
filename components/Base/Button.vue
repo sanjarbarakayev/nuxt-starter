@@ -1,18 +1,15 @@
 <template>
-  <button :data="user?.id" class="border border-white rounded px-4 py-2">
-    <i class="icon-map" :style="{ color: 'red' }" />
+  <button class="border border-white rounded px-4 py-2">
+    <i class="icon-map" />
     <slot>
-      <span> Button </span>
+      {{ text }}
     </slot>
   </button>
 </template>
 
-<script>
-const user = {};
-
-const fetchUser = () => {};
-
-onMounted(() => {
-  fetchUser();
-});
+<script setup lang="ts">
+interface Props {
+  text?: string;
+}
+defineProps<Props>();
 </script>
