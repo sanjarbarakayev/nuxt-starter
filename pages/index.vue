@@ -5,5 +5,3 @@
     <BaseButton :text="$t('msg')" />
   </div>
 </template>
-
-<script setup></script>
