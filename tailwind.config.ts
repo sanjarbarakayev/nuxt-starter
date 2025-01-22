@@ -15,6 +15,7 @@ module.exports = {
         black: {
           DEFAULT: "#000000",
         },
+        orange: "#FF6225"
       },
       lineHeight: {
         130: "130%",

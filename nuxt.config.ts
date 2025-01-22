@@ -14,4 +14,6 @@ export default defineNuxtConfig({
     lazy: true,
     strategy: "no_prefix",
   },
+
+  compatibilityDate: "2025-01-23",
 });

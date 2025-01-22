@@ -1,5 +1,5 @@
 <template>
-  <header class="bg-black/20 py-5">
+  <header class="fixed top-0 w-full py-5 z-20">
     <div class="container flex-center-between">
       <img src="/logo.svg" alt="logo" height="64px" />
 
@@ -20,7 +20,7 @@
         <CommonLanguageSwitcher />
         <div class="w-px h-5 bg-white/20" />
         <ul class="flex-y-center gap-2">
-          <li v-for="social in socials" :key="social.icon">
+          <li v-for="social in socials" :key="social.icon" class="flex">
             <a :href="social.link" target="_blank" :class="social.icon" class="text-white/20 text-2xl" />
           </li>
         </ul>
