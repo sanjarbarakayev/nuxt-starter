@@ -6,8 +6,11 @@ export default defineNuxtConfig({
   modules: ["@nuxtjs/tailwindcss", "@pinia/nuxt", "@nuxtjs/i18n"],
 
   i18n: {
-    defaultLocale: "uz",
-    locales: [{ code: "uz", file: "uz.json" }],
+    defaultLocale: "en",
+    locales: [
+      { code: "ru", file: "ru.json" },
+      { code: "en", file: "en.json" }
+    ],
     lazy: true,
     strategy: "no_prefix",
   },

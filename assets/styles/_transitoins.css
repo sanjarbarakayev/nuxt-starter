@@ -1,0 +1,92 @@
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.2s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+
+/* Slide and Fade */
+/*.page-enter-active, .page-leave-active {*/
+/*    transition: transform 0.6s cubic-bezier(0.68, -0.55, 0.27, 1.55), opacity 0.4s ease;*/
+/*}*/
+
+/*.page-enter-from {*/
+/*    transform: translateX(100%);*/
+/*    opacity: 0;*/
+/*}*/
+
+/*.page-enter-to {*/
+/*    transform: translateX(0);*/
+/*    opacity: 1;*/
+/*}*/
+
+/*.page-leave-from {*/
+/*    transform: translateX(0);*/
+/*    opacity: 1;*/
+/*}*/
+
+/*.page-leave-to {*/
+/*    transform: translateX(-100%);*/
+/*    opacity: 0;*/
+/*}*/
+
+/* Blur and Fade */
+.page-enter-active,
+.page-leave-active {
+  transition: filter 0.5s ease, opacity 0.5s ease;
+}
+
+.page-enter-from,
+.page-leave-to {
+  filter: blur(10px);
+  opacity: 0;
+}
+
+.page-enter-to,
+.page-leave-from {
+  filter: blur(0);
+  opacity: 1;
+}
+
+/* Loader */
+.loader-enter-active,
+.loader-leave-active {
+  transition: all 0.5s ease;
+}
+
+.loader-enter-from,
+.loader-leave-to {
+  filter: blur(10px);
+  opacity: 0;
+  transform: translateY(-100%);
+}
+
+.loader-enter-to,
+.loader-leave-from {
+  filter: blur(0);
+  opacity: 1;
+}
+
+/* Loader */
+.layout-enter-active,
+.layout-leave-active {
+  transition: all 0.7s ease;
+}
+
+.layout-enter-from,
+.layout-leave-to {
+  filter: blur(10px);
+  opacity: 0;
+  transform: translateY(100%);
+}
+
+.layout-enter-to,
+.layout-leave-from {
+  filter: blur(0);
+  opacity: 1;
+  transform: translateY(0);
+}
+

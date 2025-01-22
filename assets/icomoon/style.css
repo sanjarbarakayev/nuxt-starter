@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?oc2m4s');
-  src:  url('fonts/icomoon.eot?oc2m4s#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?oc2m4s') format('truetype'),
-    url('fonts/icomoon.woff?oc2m4s') format('woff'),
-    url('fonts/icomoon.svg?oc2m4s#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?8n54q2');
+  src:  url('fonts/icomoon.eot?8n54q2#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?8n54q2') format('truetype'),
+    url('fonts/icomoon.woff?8n54q2') format('woff'),
+    url('fonts/icomoon.svg?8n54q2#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,9 +25,48 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-map:before {
+.icon-phone:before {
   content: "\e900";
 }
-.icon-call:before {
+.icon-arrow-top:before {
   content: "\e901";
+}
+.icon-calendar:before {
+  content: "\e902";
+}
+.icon-telegram-stroke:before {
+  content: "\e903";
+}
+.icon-instagram-stroke:before {
+  content: "\e904";
+}
+.icon-whatsapp-stroke:before {
+  content: "\e905";
+}
+.icon-gas-station:before {
+  content: "\e906";
+}
+.icon-manual-gearbox:before {
+  content: "\e907";
+}
+.icon-users:before {
+  content: "\e908";
+}
+.icon-speedometer:before {
+  content: "\e909";
+}
+.icon-whatsapp:before {
+  content: "\e90a";
+}
+.icon-telegram:before {
+  content: "\e90b";
+}
+.icon-instagram:before {
+  content: "\e90c";
+}
+.icon-chevron:before {
+  content: "\e90d";
+}
+.icon-category:before {
+  content: "\e90e";
 }
