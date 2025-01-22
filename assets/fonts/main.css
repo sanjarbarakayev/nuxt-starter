@@ -1,0 +1,66 @@
+/* VelaSans Font Family Configuration
+ * - WOFF2 first for modern browsers
+ * - Fallback formats in order of efficiency
+ * - Local fonts first to avoid unnecessary downloads
+ * - Font-display swap to prevent FOIT (Flash of Invisible Text)
+ */
+
+@font-face {
+    font-family: 'VelaSans';
+    src: local('VelaSans-Regular'),
+    url('VelaSans-Regular.woff2') format('woff2'),
+    url('VelaSans-Regular.woff') format('woff'),
+    url('VelaSans-Regular.ttf') format('truetype'),
+    url('VelaSans-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'VelaSans';
+    src: local('VelaSans-Medium'),
+    url('VelaSans-Medium.woff2') format('woff2'),
+    url('VelaSans-Medium.woff') format('woff'),
+    url('VelaSans-Medium.ttf') format('truetype'),
+    url('VelaSans-Medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'VelaSans';
+    src: local('VelaSans-SemiBold'),
+    url('VelaSans-SemiBold.woff2') format('woff2'),
+    url('VelaSans-SemiBold.woff') format('woff'),
+    url('VelaSans-SemiBold.ttf') format('truetype'),
+    url('VelaSans-SemiBold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'VelaSans';
+    src: local('VelaSans-Bold'),
+    url('VelaSans-Bold.woff2') format('woff2'),
+    url('VelaSans-Bold.woff') format('woff'),
+    url('VelaSans-Bold.ttf') format('truetype'),
+    url('VelaSans-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'VelaSans';
+    src: local('VelaSans-ExtraBold'),
+    url('VelaSans-ExtraBold.woff2') format('woff2'),
+    url('VelaSans-ExtraBold.woff') format('woff'),
+    url('VelaSans-ExtraBold.ttf') format('truetype'),
+    url('VelaSans-ExtraBold.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
