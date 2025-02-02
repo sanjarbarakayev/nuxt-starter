@@ -1,9 +1,3 @@
 {
-  "home": "Home",
-  "about": "About",
-  "car_lists": "Car lists",
-  "brands": "Brands",
-  "prices": "Prices",
-  "contacts": "Contacts",
-  "rent_a_car": "Rent a car"
+  "msg": "Hello world!"
 }
